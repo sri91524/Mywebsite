@@ -1,0 +1,95 @@
+
+.card-body{
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+.card-body:hover{
+    background-color:#ffccd5;
+
+}
+
+th, td {
+    width:35vh;
+}
+
+.txtTitle
+{
+    color:#023e8a;
+    font-family:"Titillium Web", serif;
+    align-items:center;
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.txtMenu
+{
+    font: size 2vh;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+.myImage {
+    transition: transform 0.3s ease;  
+  }  
+  
+  .myImage:hover {  
+    transform: scale(1.5);  
+  }
+
+  .myImage
+  {
+    transform:rotate(10deg);
+  }
+  
+.txtTextHeader4
+{ 
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.txtTextHeader3
+{
+    font-size: 3vh;  
+}
+.txtTextHeader2
+{
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+#smallFont
+{
+    /* color:#023e8a;
+    font-family:"Titillium Web", serif;
+    align-items:center; */
+    font-size: 2vh;
+}
+
+.txtTextHeader4,.txtTextHeader3,.txtTextHeader2,#smallFont
+{
+    color:#023e8a;
+    font-family:"Titillium Web", serif;
+    align-items:center; 
+}
+
+.col-25
+{
+    width:35%;
+    float:left;
+    margin-top:2vh;    
+}
+.col-75
+{
+    width:65%;
+    float:left;
+    margin-top:2vh;    
+}
+.txtBold
+{
+    font-weight: 600;
+}
+input[type=text]{
+    width:50%
+}
+
+

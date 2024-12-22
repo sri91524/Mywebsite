@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowersforyou</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body{
+          font-family:"Titillium Web", serif;
+      }
+      </style>
+
+
+  </head>
+  <body>
+    <div>
+      <img src="images/flowers.png" style="width: 100%; height: 150px" />
+    </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffafcc">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="txtTextHeader2 ms-2 me-2">Flowers >> All Occasions</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"><span class="txtMenu ms-2 me-2">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fa fa-user-o"></i><span class="txtMenu ms-2 me-2">My Account</span>
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="material-icons">&#xe8cc;</i><span class="txtMenu ms-2 me-2">Cart</span></a
+              >
+            </li>     
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              <span class="txtMenu ms-2 me-2">Flowers</span>
+              </a>
+              <ul class="dropdown-menu" style="background-color: #ffafcc">
+                <li><a class="dropdown-item" href="#"><span class="txtMenu">Roses</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Lilies</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Tulips</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Orchids</span></a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Christmas</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Birthday</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Get Well</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Sympathy</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span class="txtMenu">Gift Basket</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="track.html"><span class="txtMenu ms-2 me-2">Track</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="txtMenu ms-2 me-2">Contact Us</span>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Login section-->
+    <div class="d-flex-row w-100">
+
+      <div class="d-flex justify-content-center txtTitle w-100">Login</div>
+      <hr class="border border-light border-2 w-100 opacity-75" />
+
+      <div class="d-flex w-100">
+        <!-- login -->
+        <div style="width:70%">
+            <div class="w-100 ms-3 txtTextHeader4">
+                I'm an existing Customer...
+                <hr class="border border-light border-3 w-100 opacity-75" />
+              </div>
+        
+              <div class="w-50">
+              <div class="form-group w-100">
+                <form class="form-horizontal" action="/action_page.php">
+                  <div class="form-group w-75">
+                     <!-- Email -->
+                  <div class="col-25 txtBold">
+                    <label class="control-label ms-2" for="Email">Email:&nbsp;<span class="text-danger">*</span></label>
+                  </div>
+                  <div class="col-75">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="Email"                
+                    />
+                  </div>
+                    <!-- Password -->           
+                    <div class="col-25 txtBold">
+                        <label class="control-label ms-2" for="pwd">Password:&nbsp;<span class="text-danger">*</span></label>
+                      </div>
+                      <div class="col-75">                
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="pwd" 
+                          data-toggle="tooltip" data-placement="bottom" title="Must be atleast 8 or more characters and contain atleast 1 number and 1 special character."                 
+                        />
+                      </div>
+                      <div style="text-align: center;">                        
+                        <input type="checkbox" name="chkRemember" id="chkRemember">&nbsp;Remember Me
+                      </div>
+                      <div style="text-align: center;">   
+                        <button type="submit" class="btn btn-dark mt-3">Login >></button>                 
+                   </div>
+                   <div style="text-align: center;"><br>
+                      <i><b>Forgot your password? You can reset it <a href="#">here</a></b></i>
+                   </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        <!-- sign up -->
+        <div style="width:30%">
+
+            <div class="w-100 ms-3 txtTextHeader4">
+                I'm a New Customer...
+                <hr class="border border-light border-3 w-100 opacity-75" />
+              </div>         
+              
+              <div class="form-group w-100">
+                <div>I have not registered with flowersforyou yet before, but would like to sign-up now:</div>
+                <form class="form-horizontal" action="signup.html">                  
+                    <div style="text-align: center;">   
+                        <button type="submit" class="btn btn-dark mt-3">Sign Up >></button>                 
+                   </div>
+                </form>
+              </div>
+            </div>
+
+        </div>
+
+      </div>
+
+    <!-- Sign up -->
+</div>  
+
+  <footer  class="mt-5" style="background-color:#e9edc9; text-align: center;">
+    <a class="text-reset text-decoration-none me-2" href="#">Terms of Service</a>|<a class="ms-2 me-2 text-reset text-decoration-none" href="#">Privacy Policy</a>|&nbsp;copyrights 2024 - Flowersforyou
+  </footer> 
+   
+    <!-- main div -->
+
+     <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
